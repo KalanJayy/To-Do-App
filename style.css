@@ -50,7 +50,30 @@ h1{
     width: 100%;
     background: none;
     border: 2px solid var(--secondary-color);
+    border-radius: 1000px;
     font: inherit;
     color: var(--text-color);
     caret-color: var(--accent-color);
 }
+
+#todo-input:focus{
+    outline: none;
+}
+
+form{
+    position: relative;
+}
+
+#add-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--accent-color);
+    height: 100%;
+    padding: 0 30px;
+    font: inherit;
+    font-weight: 600;
+    color: var(--background);
+    cursor: pointer;
+}
+
